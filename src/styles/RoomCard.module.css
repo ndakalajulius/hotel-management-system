@@ -1,0 +1,16 @@
+.roomsPage {
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .roomsPage h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .roomGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
